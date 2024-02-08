@@ -31,8 +31,9 @@
   cursor: pointer;
 }
 
-.search {
-  padding: 10px;
+.filter-btn {
+  cursor: pointer;
+  margin: 10px;
 }
 
 .res-logo {
@@ -50,4 +51,5 @@
 
 .res-props {
   max-width: 100%;
+  word-wrap: break-word;
 }
