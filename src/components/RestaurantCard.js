@@ -15,7 +15,6 @@ const RestaurantCardComponent = (props) => {
       <div className="res-props">
         <h3>{name}</h3>
         <h4>{cuisines.join(", ")}</h4>
-        {console.log(cuisines.join(", "))}
         <h4>{avgRating}</h4>
         <h4>{costForTwo}</h4>
         <h4>{deliveryTime} mins to deliver!</h4>
